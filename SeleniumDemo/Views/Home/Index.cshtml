@@ -1,0 +1,32 @@
+﻿@model SeleniumDemo.Models.CalculateViewModel
+
+@{
+    ViewBag.Title = "Calculator";
+}
+
+<h2>Calculator</h2>
+
+<div class="row">
+    <div class="col-md-4">
+        <form asp-action="Index">
+            <div class="form-group">
+                <label asp-for="FirstNumber" class="control-label"></label>
+                <input asp-for="FirstNumber" class="form-control" />
+            </div>
+            <br />
+            <div class="form-group">
+                <label asp-for="SecondNumber" class="control-label"></label>
+                <input asp-for="SecondNumber" class="form-control" />
+            </div>
+            <br />
+            <div class="form-group">
+                <label asp-for="Result" class="control-label"></label>
+                <div id="result">@Html.DisplayFor(model => model.Result)</div>
+            </div>
+            <br />
+            <div class="form-group">
+                <input type="submit" value="Calculate" class="button" />
+            </div>
+        </form>
+    </div>
+</div>
