@@ -37,9 +37,11 @@ public class CalculatorTest : IDisposable
         driver.FindElement(By.Id("FirstNumber")).Click();
         driver.FindElement(By.Id("FirstNumber")).Clear();
         driver.FindElement(By.Id("FirstNumber")).SendKeys("30");
+
         driver.FindElement(By.Id("SecondNumber")).Click();
         driver.FindElement(By.Id("SecondNumber")).Clear();
         driver.FindElement(By.Id("SecondNumber")).SendKeys("20");
+
         driver.FindElement(By.XPath("//input[@value='Calculate']")).Click();
         Assert.Equal("50", driver.FindElement(By.Id("result")).Text);
     }
