@@ -10,7 +10,7 @@
 // ------------------------------------------------------------------------------
 #region Designer generated code
 #pragma warning disable
-namespace SpecFlowCalculator.Specs.Features
+namespace Calculator.Specs.Features
 {
     using Reqnroll;
     using System;

@@ -3,7 +3,7 @@ using Xunit;
 using OpenQA.Selenium;
 using OpenQA.Selenium.Chrome;
 
-namespace SpecFlowCalculator.Specs.Steps
+namespace Calculator.Specs.Steps
 {
     [Binding]
     public sealed class CalculatorStepDefinitions

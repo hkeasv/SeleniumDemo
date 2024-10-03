@@ -9,7 +9,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CalculatorLib", "Calculator
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SeleniumTest", "SeleniumTest\SeleniumTest.csproj", "{7F0AEA24-EECD-41D6-AA51-56EBC1E46937}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SpecFlowCalculator.Specs", "SpecFlowCalculator.Specs\SpecFlowCalculator.Specs.csproj", "{4F0B7975-AD8C-4158-8A57-2F80E978F385}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Calculator.Specs", "Calculator.Specs\Calculator.Specs.csproj", "{4F0B7975-AD8C-4158-8A57-2F80E978F385}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
