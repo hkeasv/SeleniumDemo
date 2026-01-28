@@ -54,6 +54,7 @@ namespace Calculator.Specs.Steps
         [Then("the result should be (.*)")]
         public void ThenTheResultShouldBe(decimal result)
         {
+            Thread.Sleep(100); // Wait for the result to be displayed
             string resultString = driver.FindElement(By.Id("result")).Text;
             Assert.Equal(result.ToString(), resultString);
         }    
